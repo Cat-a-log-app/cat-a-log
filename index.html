@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cat-a-log — Support</title>
+<meta name="description" content="Help and contact for Cat-a-log, the pet health record app for iPhone.">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --bg: #faf7f2;
+    --card: #ffffff;
+    --ink: #1f1b16;
+    --ink2: #5f574d;
+    --ink3: #8d8478;
+    --accent: #c8791f;
+    --line: rgba(0,0,0,.09);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16130f;
+      --card: #201c17;
+      --ink: #f5f0e8;
+      --ink2: #b6ada1;
+      --ink3: #8a8378;
+      --accent: #f0ac52;
+      --line: rgba(255,255,255,.10);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 20px 72px;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 44rem; margin: 0 auto; }
+  header { text-align: center; padding: 56px 0 8px; }
+  header img { width: 96px; height: 96px; border-radius: 22px; display: block; margin: 0 auto 18px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 6px; letter-spacing: -.02em; }
+  .tagline { color: var(--ink2); margin: 0; }
+  h2 { font-size: 1.25rem; margin: 40px 0 12px; letter-spacing: -.01em; }
+  h3 { font-size: 1.02rem; margin: 22px 0 4px; }
+  p, li { color: var(--ink2); }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 22px 24px;
+    margin: 26px 0;
+  }
+  .contact { text-align: center; }
+  .contact .mail { font-size: 1.15rem; font-weight: 600; }
+  ul { padding-left: 1.25rem; }
+  footer {
+    margin-top: 48px; padding-top: 22px;
+    border-top: 1px solid var(--line);
+    color: var(--ink3); font-size: .9rem; text-align: center;
+  }
+  footer a { color: var(--ink3); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="Cat-a-log app icon">
+    <h1>Cat-a-log</h1>
+    <p class="tagline">Pet health records that stay in one place.</p>
+  </header>
+
+  <div class="card contact">
+    <p style="margin:0 0 6px">Need help, found a bug, or have a suggestion?</p>
+    <p class="mail" style="margin:0"><a href="mailto:cat.a.log.app.mail@gmail.com">cat.a.log.app.mail@gmail.com</a></p>
+    <p style="margin:10px 0 0; font-size:.92rem; color:var(--ink3)">
+      Write in English or Polish — both are fine.
+    </p>
+  </div>
+
+  <h2>Frequently asked</h2>
+
+  <h3>Do I need an account?</h3>
+  <p>
+    No. Cat-a-log works fully offline for one pet, with no sign-up at all —
+    everything stays on your iPhone. An account is only needed for Cat-a-log Pro,
+    which adds unlimited pets and keeps your records backed up and in sync.
+  </p>
+
+  <h3>Where is my data stored?</h3>
+  <p>
+    Without an account, only on your device. With Cat-a-log Pro, it is also synced
+    to servers in the European Union so it survives a lost phone. Details are in
+    the <a href="privacy.html">privacy policy</a>.
+  </p>
+
+  <h3>How does sharing with a sitter work?</h3>
+  <p>
+    You generate a code and choose what it covers — feeding, medications, vet
+    visits, notes — and when it expires. Whoever holds the code can see just that
+    one pet, tick off what you allowed, and message you. They need no account, and
+    access ends by itself at the expiry you picked.
+  </p>
+
+  <h3>How do I stop sharing?</h3>
+  <p>
+    Open the pet, go to Sitter mode, and delete the code. Access ends immediately,
+    and the person holding it is told their access has finished.
+  </p>
+
+  <h3>How do I manage or cancel the subscription?</h3>
+  <p>
+    Subscriptions are handled by Apple, not by us: open the iOS
+    <strong>Settings</strong> app, tap your name, then
+    <strong>Subscriptions</strong>. Cancelling there stops future renewals and
+    leaves your data on your device.
+  </p>
+
+  <h3>How do I delete my data?</h3>
+  <p>
+    In the app: <strong>Settings → Delete account</strong>. That removes your
+    synced records and attached files from our servers. Anything kept only on your
+    iPhone is removed by deleting the app.
+  </p>
+
+  <h3>Something is wrong with a reminder</h3>
+  <p>
+    Reminders are local notifications, so they need permission and they only fire
+    while the app is installed. Check
+    <strong>Settings → Notifications → Cat-a-log</strong> first; if it still looks
+    wrong, email us with what you expected and when — that is usually enough to
+    find it.
+  </p>
+
+  <footer>
+    <p><a href="privacy.html">Privacy policy</a></p>
+    <p>Made by Adam Makowski.</p>
+  </footer>
+</main>
+</body>
+</html>
