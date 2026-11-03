@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cat-a-log — Press kit</title>
+<meta name="description" content="Press kit for Cat-a-log, a passport for every pet: the story, a video, screenshots and facts.">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --bg: #faf7f2;
+    --card: #ffffff;
+    --ink: #1f1b16;
+    --ink2: #5f574d;
+    --ink3: #8d8478;
+    --accent: #c8791f;
+    --line: rgba(0,0,0,.09);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16130f;
+      --card: #201c17;
+      --ink: #f5f0e8;
+      --ink2: #b6ada1;
+      --ink3: #8a8378;
+      --accent: #f0ac52;
+      --line: rgba(255,255,255,.10);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 20px 72px;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 52rem; margin: 0 auto; }
+  header { text-align: center; padding: 56px 0 8px; }
+  header img { width: 96px; height: 96px; border-radius: 22px; display: block; margin: 0 auto 18px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 6px; letter-spacing: -.02em; }
+  .tagline { color: var(--ink2); margin: 0; }
+  h2 { font-size: 1.25rem; margin: 44px 0 12px; letter-spacing: -.01em; }
+  p, li, dd { color: var(--ink2); }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  img, video { max-width: 100%; height: auto; display: block; }
+  .banner { margin: 32px 0 8px; border-radius: 18px; overflow: hidden; border: 1px solid var(--line); }
+  .store {
+    display: inline-block; margin: 6px 0 0; padding: 11px 22px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-weight: 600; text-decoration: none;
+  }
+  .video { display: flex; justify-content: center; }
+  .video video { width: 320px; border-radius: 28px; border: 1px solid var(--line); background: #000; }
+  .shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .shots figure, .wide { margin: 0; }
+  .shots img, .wide img { border-radius: 16px; border: 1px solid var(--line); }
+  figcaption { font-size: .9rem; color: var(--ink3); margin-top: 8px; line-height: 1.45; }
+  .wide { margin-top: 22px; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 8px 22px; margin: 0; }
+  dt { font-weight: 600; }
+  dd { margin: 0; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 22px 24px;
+    margin: 18px 0;
+  }
+  .contact { text-align: center; }
+  .contact .mail { font-size: 1.15rem; font-weight: 600; }
+  footer {
+    margin-top: 48px; padding-top: 22px;
+    border-top: 1px solid var(--line);
+    text-align: center; font-size: .9rem; color: var(--ink3);
+  }
+  footer a { margin: 0 8px; }
+  @media (max-width: 640px) {
+    .shots { grid-template-columns: 1fr; }
+    dl { grid-template-columns: 1fr; gap: 2px; }
+    dd { margin-bottom: 10px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="Cat-a-log app icon">
+    <h1>Cat-a-log</h1>
+    <p class="tagline">A passport for every pet</p>
+  </header>
+
+  <div class="banner">
+    <img src="press/header.jpg" alt="Two pet passports, a cat's and a dog's, with vaccination stamps" width="1920" height="823">
+  </div>
+
+  <h2>About</h2>
+  <p>Cat-a-log keeps a dog's or cat's health in one place, and version 1.3 turns it into a real pet passport. Each pet has its own passport cover on the home screen; a tap zooms it open to the pet's pages, where every vaccination is an ink stamp.</p>
+  <p>Feeding 2.0 plans the daily meals, and Live Activities bring the next meal, dose or vet visit to the Lock Screen and the Dynamic Island, with buttons that stamp them done. On iPhone Duo the passport and its records sit side by side, and partly folded the app reads like a booklet.</p>
+  <p>Made by an independent developer in Poland, in English, Polish, Spanish, Italian and Traditional Chinese.</p>
+  <p><a class="store" href="https://apps.apple.com/app/id6792299436">View on the App Store</a></p>
+
+  <h2>Video</h2>
+  <div class="video">
+    <video src="press/preview-en.mp4" poster="press/poster.jpg" controls playsinline preload="metadata" width="886" height="1920"></video>
+  </div>
+
+  <h2>Screenshots</h2>
+  <div class="shots">
+    <figure>
+      <a href="press/passport.jpg"><img src="press/passport.jpg" alt="Home screen with a pet passport cover" width="1320" height="2868" loading="lazy"></a>
+      <figcaption>The passport: a cover for every pet, vaccinations as stamps.</figcaption>
+    </figure>
+    <figure>
+      <a href="press/feeding.jpg"><img src="press/feeding.jpg" alt="The feeding plan and today's meals" width="1320" height="2868" loading="lazy"></a>
+      <figcaption>Feeding 2.0: the day's plan, the log and the food stock.</figcaption>
+    </figure>
+    <figure>
+      <a href="press/lock-screen.jpg"><img src="press/lock-screen.jpg" alt="A meal as a Live Activity on the Lock Screen" width="1320" height="2868" loading="lazy"></a>
+      <figcaption>Live Activities: the next meal or dose on the Lock Screen.</figcaption>
+    </figure>
+  </div>
+  <figure class="wide">
+    <a href="press/duo.jpg"><img src="press/duo.jpg" alt="Cat-a-log on the unfolded iPhone Duo" width="2000" height="1407" loading="lazy"></a>
+    <figcaption>iPhone Duo: the passport and its records side by side.</figcaption>
+  </figure>
+
+  <h2>Facts</h2>
+  <div class="card">
+    <dl>
+      <dt>Platform</dt><dd>iPhone, iOS 18 or later. Optimized for iPhone Duo.</dd>
+      <dt>Latest version</dt><dd>1.3, November 2026</dd>
+      <dt>Price</dt><dd>Free. Cat-a-log Pro adds unlimited pets, cloud sync, sitter sharing and more widgets, as a monthly or yearly subscription.</dd>
+      <dt>Languages</dt><dd>English, Polish, Spanish, Italian, Traditional Chinese</dd>
+      <dt>Apple technologies</dt><dd>Live Activities, widgets, App Intents, SwiftUI, iPhone Duo layouts</dd>
+    </dl>
+  </div>
+
+  <h2>Contact</h2>
+  <div class="card contact">
+    <p>Questions, interviews or more material:</p>
+    <p class="mail"><a href="mailto:cat.a.log.app.mail@gmail.com">cat.a.log.app.mail@gmail.com</a></p>
+  </div>
+
+  <footer>
+    <a href="index.html">Support</a> · <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
